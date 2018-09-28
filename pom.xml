@@ -27,15 +27,15 @@
 
 	<distributionManagement>
 		<repository>
-			<id>release</id>
-			<name>releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
+			<id>central</id>
+			<name>ubuntu-devop-releases</name>
+			<url>http://192.168.3.128:8081/artifactory/libs-release-local</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
+			<snapshotRepository>
+				<id>snapshots</id>
+				<name>ubuntu-devop-snapshots</name>
+				<url>http://192.168.3.128:8081/artifactory/libs-snapshot-local</url>
+			</snapshotRepository>
 	</distributionManagement>
 
 	<scm>
